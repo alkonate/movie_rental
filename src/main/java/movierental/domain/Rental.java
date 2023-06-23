@@ -1,8 +1,8 @@
-package movierental;
+package movierental.domain;
 
 import java.util.Objects;
 
-import static movierental.RentalAmountCalculator.calRentalAmount;
+import static movierental.domain.RentalAmountCalculator.calRentalAmount;
 
 /**
  * The rental class represents a customer renting a movie.

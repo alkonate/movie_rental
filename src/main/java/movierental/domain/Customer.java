@@ -1,4 +1,4 @@
-package movierental;
+package movierental.domain;
 
 import java.util.ArrayList;
 import java.util.List;

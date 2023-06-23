@@ -1,8 +1,8 @@
-package movierental;
+package movierental.domain;
 
-import movierental.Movie.PriceCode;
+import movierental.domain.Movie.PriceCode;
 
-class RentalAmountCalculator {
+public class RentalAmountCalculator {
     private static Amount calRentalAmountPriceCodeZero(DaysRented daysRented) {
         return Amount.zero()
                 .add(Amount.of(2))

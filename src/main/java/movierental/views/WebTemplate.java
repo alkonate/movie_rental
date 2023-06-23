@@ -1,9 +1,9 @@
 package movierental.views;
 
-import movierental.Amount;
-import movierental.Customer;
-import movierental.Movie;
-import movierental.StatementResult;
+import movierental.domain.Amount;
+import movierental.domain.Customer;
+import movierental.domain.Movie;
+import movierental.domain.StatementResult;
 import movierental.helpers.List;
 import movierental.helpers.Tuple;
 

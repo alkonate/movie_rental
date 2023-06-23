@@ -1,4 +1,4 @@
-package movierental;
+package movierental.domain;
 
 public enum DaysRented {
     // might ask the domain expert obout the max rented days

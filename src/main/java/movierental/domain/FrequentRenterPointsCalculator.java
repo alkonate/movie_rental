@@ -1,6 +1,6 @@
-package movierental;
+package movierental.domain;
 
-import movierental.Movie.PriceCode;
+import movierental.domain.Movie.PriceCode;
 
 public class FrequentRenterPointsCalculator {
 

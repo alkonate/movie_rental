@@ -1,6 +1,9 @@
 package movierental.application;
 
-import movierental.*;
+import movierental.domain.Amount;
+import movierental.domain.FrequentRenterPoints;
+import movierental.domain.Rental;
+import movierental.domain.StatementResult;
 import movierental.helpers.List;
 import movierental.helpers.Tuple;
 

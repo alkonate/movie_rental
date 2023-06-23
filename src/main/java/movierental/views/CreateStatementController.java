@@ -1,7 +1,7 @@
 package movierental.views;
 
-import movierental.Customer;
-import movierental.Rental;
+import movierental.domain.Customer;
+import movierental.domain.Rental;
 import movierental.application.Statement;
 import movierental.helpers.List;
 

@@ -1,10 +1,12 @@
 package movierental;
 
-import movierental.Movie.PriceCode;
+import movierental.domain.DaysRented;
+import movierental.domain.FrequentRenterPoints;
+import movierental.domain.Movie.PriceCode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static movierental.FrequentRenterPointsCalculator.calFrequentRenterPoints;
+import static movierental.domain.FrequentRenterPointsCalculator.calFrequentRenterPoints;
 
 class FrequentRenterPointsCalculatorTest {
 
@@ -12,7 +14,7 @@ class FrequentRenterPointsCalculatorTest {
     void should_get_1_point_when_price_code_is_zero() {
         Assertions.assertEquals(
                 FrequentRenterPoints.of(1),
-                calFrequentRenterPoints(PriceCode.ZERO,DaysRented.TWO));
+                calFrequentRenterPoints(PriceCode.ZERO, DaysRented.TWO));
     }
 
     @Test

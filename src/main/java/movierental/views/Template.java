@@ -1,6 +1,7 @@
 package movierental.views;
 
-import movierental.*;
+import movierental.domain.Customer;
+import movierental.domain.StatementResult;
 
 public interface Template {
     public static String CUSTOMER_NAME_PARAM = "%customerName";

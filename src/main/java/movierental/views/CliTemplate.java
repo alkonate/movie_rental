@@ -1,6 +1,6 @@
 package movierental.views;
 
-import movierental.*;
+import movierental.domain.*;
 import movierental.helpers.List;
 import movierental.helpers.Tuple;
 
@@ -21,7 +21,7 @@ public class CliTemplate implements Template {
         return HEADER.replace(CUSTOMER_NAME_PARAM,customer.getName());
     }
 
-    private String renderBody(List<Tuple<Movie,Amount>> moviesAndPrices){
+    private String renderBody(List<Tuple<Movie, Amount>> moviesAndPrices){
         return moviesAndPrices.foldLeft(
                 new StringBuilder(),
                 bodyBuilder -> movieAndPrice ->

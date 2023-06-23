@@ -1,7 +1,11 @@
 package movierental;
 
 
-import movierental.Movie.MovieTypes;
+import movierental.domain.Customer;
+import movierental.domain.DaysRented;
+import movierental.domain.Movie;
+import movierental.domain.Movie.MovieTypes;
+import movierental.domain.Rental;
 import movierental.helpers.List;
 import movierental.views.CreateStatementController;
 import movierental.views.CliTemplate;
@@ -9,7 +13,7 @@ import movierental.views.WebTemplate;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static movierental.Movie.PriceCode.priceCodeOf;
+import static movierental.domain.Movie.PriceCode.priceCodeOf;
 
 public class CustomerAcceptanceTest {
 

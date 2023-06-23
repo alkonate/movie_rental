@@ -1,8 +1,8 @@
 package movierental.views;
 
-import movierental.Amount;
-import movierental.FrequentRenterPoints;
-import movierental.Movie;
+import movierental.domain.Amount;
+import movierental.domain.FrequentRenterPoints;
+import movierental.domain.Movie;
 import movierental.helpers.List;
 import movierental.helpers.Tuple;
 

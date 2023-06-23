@@ -1,4 +1,4 @@
-package movierental;
+package movierental.domain;
 
 import movierental.helpers.List;
 import movierental.helpers.Tuple;

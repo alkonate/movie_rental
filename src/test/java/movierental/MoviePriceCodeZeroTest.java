@@ -1,11 +1,14 @@
 package movierental;
 
+import movierental.domain.Amount;
+import movierental.domain.DaysRented;
+import movierental.domain.Movie;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static movierental.Movie.PriceCode.priceCodeOf;
-import static movierental.RentalAmountCalculator.calRentalAmount;
+import static movierental.domain.Movie.PriceCode.priceCodeOf;
+import static movierental.domain.RentalAmountCalculator.calRentalAmount;
 
 @DisplayName("Movie price code 0")
 class MoviePriceCodeZeroTest {
